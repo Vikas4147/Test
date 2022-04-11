@@ -14,8 +14,8 @@ public class CallingFunctionType1 {
 
     public static void main(String[] args) {
         int a=5;
-        int b=7;
-        int c;
+        int b=7;          // In case of primitive data type when arguments are passed copy of value is stored
+        int c;            // Hence in changing the value of x and y in method it won't change the value of a and b in main method
         c = logic(a,b);
         int a1=7;
         int b1=5;
